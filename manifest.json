@@ -1,0 +1,744 @@
+{
+ "version": "2026-08-28",
+ "source": "Alberta Energy Regulator public spatial data (ST37, ST102, Enhanced Pipeline, Abandoned Well Map, Revised Abandoned Well Locations); AGRASID 4.1 soil landscapes (Alberta Agriculture and Irrigation with Agriculture and Agri-Food Canada); Government of Alberta, Alberta Water Well Information Database",
+ "grid": {
+  "lat0": 48.9,
+  "lon0": -120.4,
+  "dlat": 1.1,
+  "dlon": 2.0
+ },
+ "cols": {
+  "wells": [
+   "lic",
+   "licensee",
+   "status",
+   "statusdate",
+   "elev",
+   "spud",
+   "findrill",
+   "edct",
+   "lat",
+   "lon",
+   "uwi",
+   "wellname",
+   "tvd",
+   "ftot",
+   "blat",
+   "blon",
+   "lsd",
+   "fluid",
+   "phone",
+   "city",
+   "revlat",
+   "revlon"
+  ],
+  "pipes": [
+   "licence",
+   "line",
+   "company",
+   "segstatus",
+   "sub1",
+   "sub2",
+   "h2s",
+   "h2slvl",
+   "od",
+   "wall",
+   "material",
+   "maop",
+   "frm",
+   "to",
+   "seglen",
+   "approved",
+   "geom"
+  ],
+  "fac": [
+   "facid",
+   "facname",
+   "operator",
+   "subty",
+   "licnum",
+   "licensee",
+   "status",
+   "edct",
+   "locsrc",
+   "lat",
+   "lon"
+  ],
+  "inst": [
+   "licinstno",
+   "type",
+   "company",
+   "status",
+   "h2s",
+   "sub1",
+   "sub2",
+   "loc",
+   "fldctr",
+   "power",
+   "prime",
+   "lat",
+   "lon"
+  ],
+  "rev": [
+   "licence",
+   "lat",
+   "lon"
+  ],
+  "soil": [
+   "muname",
+   "soilname",
+   "order",
+   "landform",
+   "slope",
+   "drain",
+   "salt",
+   "calc",
+   "tex",
+   "grain",
+   "alfalfa",
+   "brome",
+   "canola",
+   "pct",
+   "report",
+   "geom"
+  ],
+  "water": [
+   "gic",
+   "lat",
+   "lon",
+   "elev",
+   "legal",
+   "locsrc",
+   "use",
+   "work",
+   "decom",
+   "drilled",
+   "depth",
+   "casing",
+   "rate",
+   "intake",
+   "swl",
+   "swldatum",
+   "testrate",
+   "testtype",
+   "artesian",
+   "saline",
+   "gas",
+   "method",
+   "driller",
+   "aquifer",
+   "log"
+  ]
+ },
+ "tiles": {
+  "0_2": {
+   "bytes": 36949,
+   "counts": {
+    "wells": 39,
+    "pipes": 51,
+    "fac": 18,
+    "inst": 5,
+    "soil": 47,
+    "water": 544
+   }
+  },
+  "0_3": {
+   "bytes": 1746999,
+   "counts": {
+    "wells": 3280,
+    "pipes": 2762,
+    "fac": 973,
+    "inst": 90,
+    "rev": 1,
+    "soil": 1988,
+    "water": 13801
+   }
+  },
+  "0_4": {
+   "bytes": 2777171,
+   "counts": {
+    "wells": 16597,
+    "pipes": 10991,
+    "fac": 3308,
+    "inst": 222,
+    "soil": 1912,
+    "water": 8169
+   }
+  },
+  "0_5": {
+   "bytes": 269765,
+   "counts": {
+    "wells": 637,
+    "pipes": 161,
+    "fac": 24,
+    "inst": 5,
+    "soil": 379,
+    "water": 1040
+   }
+  },
+  "1_2": {
+   "bytes": 348448,
+   "counts": {
+    "wells": 302,
+    "pipes": 491,
+    "fac": 49,
+    "inst": 1,
+    "soil": 251,
+    "water": 5248
+   }
+  },
+  "1_3": {
+   "bytes": 4272188,
+   "counts": {
+    "wells": 16891,
+    "pipes": 13439,
+    "fac": 4462,
+    "inst": 144,
+    "rev": 12,
+    "soil": 2300,
+    "water": 39776
+   }
+  },
+  "1_4": {
+   "bytes": 6711855,
+   "counts": {
+    "wells": 65230,
+    "pipes": 53084,
+    "fac": 9205,
+    "inst": 506,
+    "rev": 3,
+    "soil": 2313,
+    "water": 5214
+   }
+  },
+  "1_5": {
+   "bytes": 960282,
+   "counts": {
+    "wells": 8718,
+    "pipes": 6981,
+    "fac": 493,
+    "inst": 49,
+    "soil": 474,
+    "water": 1899
+   }
+  },
+  "2_1": {
+   "bytes": 4659,
+   "counts": {
+    "wells": 1,
+    "fac": 1,
+    "water": 101
+   }
+  },
+  "2_2": {
+   "bytes": 1729655,
+   "counts": {
+    "wells": 4574,
+    "pipes": 6750,
+    "fac": 2628,
+    "inst": 89,
+    "soil": 634,
+    "water": 16743
+   }
+  },
+  "2_3": {
+   "bytes": 6122906,
+   "counts": {
+    "wells": 33064,
+    "pipes": 27681,
+    "fac": 8606,
+    "inst": 169,
+    "rev": 3,
+    "soil": 2632,
+    "water": 38676
+   }
+  },
+  "2_4": {
+   "bytes": 3387370,
+   "counts": {
+    "wells": 22091,
+    "pipes": 14770,
+    "fac": 5267,
+    "inst": 113,
+    "soil": 2040,
+    "water": 11396
+   }
+  },
+  "2_5": {
+   "bytes": 655133,
+   "counts": {
+    "wells": 4248,
+    "pipes": 2758,
+    "fac": 1580,
+    "inst": 20,
+    "soil": 511,
+    "water": 2147
+   }
+  },
+  "3_0": {
+   "bytes": 698,
+   "counts": {
+    "wells": 1,
+    "fac": 1,
+    "water": 6
+   }
+  },
+  "3_1": {
+   "bytes": 252544,
+   "counts": {
+    "wells": 1060,
+    "pipes": 1034,
+    "fac": 260,
+    "inst": 13,
+    "water": 1971
+   }
+  },
+  "3_2": {
+   "bytes": 5374014,
+   "counts": {
+    "wells": 27809,
+    "pipes": 32370,
+    "fac": 12393,
+    "inst": 172,
+    "rev": 1,
+    "soil": 763,
+    "water": 25931
+   }
+  },
+  "3_3": {
+   "bytes": 6629611,
+   "counts": {
+    "wells": 26797,
+    "pipes": 22661,
+    "fac": 8181,
+    "inst": 285,
+    "rev": 7,
+    "soil": 1930,
+    "water": 63484
+   }
+  },
+  "3_4": {
+   "bytes": 4186984,
+   "counts": {
+    "wells": 26342,
+    "pipes": 19057,
+    "fac": 7144,
+    "inst": 253,
+    "rev": 1,
+    "soil": 1747,
+    "water": 19496
+   }
+  },
+  "3_5": {
+   "bytes": 1386150,
+   "counts": {
+    "wells": 11166,
+    "pipes": 8492,
+    "fac": 4102,
+    "inst": 82,
+    "rev": 2,
+    "soil": 353,
+    "water": 4267
+   }
+  },
+  "4_0": {
+   "bytes": 358570,
+   "counts": {
+    "wells": 2015,
+    "pipes": 1435,
+    "fac": 795,
+    "inst": 23,
+    "water": 779
+   }
+  },
+  "4_1": {
+   "bytes": 2799800,
+   "counts": {
+    "wells": 15576,
+    "pipes": 13282,
+    "fac": 5107,
+    "inst": 38,
+    "rev": 1,
+    "soil": 50,
+    "water": 9265
+   }
+  },
+  "4_2": {
+   "bytes": 3568851,
+   "counts": {
+    "wells": 11924,
+    "pipes": 9965,
+    "fac": 4880,
+    "inst": 215,
+    "soil": 1570,
+    "water": 27720
+   }
+  },
+  "4_3": {
+   "bytes": 5491662,
+   "counts": {
+    "wells": 14368,
+    "pipes": 15268,
+    "fac": 3111,
+    "inst": 497,
+    "rev": 109,
+    "soil": 1470,
+    "water": 63995
+   }
+  },
+  "4_4": {
+   "bytes": 3839450,
+   "counts": {
+    "wells": 22451,
+    "pipes": 8269,
+    "fac": 7883,
+    "inst": 245,
+    "rev": 1,
+    "soil": 1919,
+    "water": 29145
+   }
+  },
+  "4_5": {
+   "bytes": 1064470,
+   "counts": {
+    "wells": 8281,
+    "pipes": 2189,
+    "fac": 4151,
+    "inst": 49,
+    "soil": 418,
+    "water": 4579
+   }
+  },
+  "5_0": {
+   "bytes": 3030063,
+   "counts": {
+    "wells": 15020,
+    "pipes": 12142,
+    "fac": 5022,
+    "inst": 72,
+    "soil": 628,
+    "water": 11882
+   }
+  },
+  "5_1": {
+   "bytes": 1822440,
+   "counts": {
+    "wells": 7944,
+    "pipes": 6637,
+    "fac": 2604,
+    "inst": 141,
+    "rev": 1,
+    "soil": 718,
+    "water": 5804
+   }
+  },
+  "5_2": {
+   "bytes": 1431588,
+   "counts": {
+    "wells": 7374,
+    "pipes": 10777,
+    "fac": 1949,
+    "inst": 65,
+    "soil": 201,
+    "water": 2693
+   }
+  },
+  "5_3": {
+   "bytes": 1671606,
+   "counts": {
+    "wells": 8146,
+    "pipes": 4163,
+    "fac": 1339,
+    "inst": 119,
+    "soil": 809,
+    "water": 11728
+   }
+  },
+  "5_4": {
+   "bytes": 2341239,
+   "counts": {
+    "wells": 28069,
+    "pipes": 6652,
+    "fac": 2289,
+    "inst": 130,
+    "soil": 567,
+    "water": 5844
+   }
+  },
+  "5_5": {
+   "bytes": 296043,
+   "counts": {
+    "wells": 3967,
+    "pipes": 773,
+    "fac": 222,
+    "inst": 11,
+    "soil": 83,
+    "water": 1223
+   }
+  },
+  "6_0": {
+   "bytes": 1955997,
+   "counts": {
+    "wells": 12736,
+    "pipes": 9849,
+    "fac": 5202,
+    "inst": 133,
+    "rev": 1,
+    "soil": 642,
+    "water": 2230
+   }
+  },
+  "6_1": {
+   "bytes": 1307992,
+   "counts": {
+    "wells": 9059,
+    "pipes": 2864,
+    "fac": 2196,
+    "inst": 152,
+    "soil": 925,
+    "water": 5887
+   }
+  },
+  "6_2": {
+   "bytes": 950545,
+   "counts": {
+    "wells": 8969,
+    "pipes": 4680,
+    "fac": 2967,
+    "inst": 32,
+    "soil": 93,
+    "water": 1602
+   }
+  },
+  "6_3": {
+   "bytes": 788249,
+   "counts": {
+    "wells": 10558,
+    "pipes": 2958,
+    "fac": 1417,
+    "inst": 18,
+    "water": 761
+   }
+  },
+  "6_4": {
+   "bytes": 1792060,
+   "counts": {
+    "wells": 24295,
+    "pipes": 4550,
+    "fac": 755,
+    "inst": 105,
+    "water": 1430
+   }
+  },
+  "6_5": {
+   "bytes": 7030,
+   "counts": {
+    "wells": 88,
+    "pipes": 3,
+    "fac": 4,
+    "water": 22
+   }
+  },
+  "7_0": {
+   "bytes": 317968,
+   "counts": {
+    "wells": 2661,
+    "pipes": 1532,
+    "fac": 606,
+    "water": 803
+   }
+  },
+  "7_1": {
+   "bytes": 308215,
+   "counts": {
+    "wells": 1831,
+    "pipes": 741,
+    "fac": 222,
+    "inst": 38,
+    "soil": 301,
+    "water": 791
+   }
+  },
+  "7_2": {
+   "bytes": 365168,
+   "counts": {
+    "wells": 3916,
+    "pipes": 1810,
+    "fac": 1174,
+    "inst": 3,
+    "water": 661
+   }
+  },
+  "7_3": {
+   "bytes": 230036,
+   "counts": {
+    "wells": 3334,
+    "pipes": 836,
+    "fac": 291,
+    "inst": 7,
+    "water": 466
+   }
+  },
+  "7_4": {
+   "bytes": 1809372,
+   "counts": {
+    "wells": 35307,
+    "pipes": 1389,
+    "fac": 228,
+    "inst": 87,
+    "water": 1107
+   }
+  },
+  "7_5": {
+   "bytes": 24813,
+   "counts": {
+    "wells": 632,
+    "pipes": 5,
+    "fac": 5,
+    "water": 33
+   }
+  },
+  "8_0": {
+   "bytes": 438501,
+   "counts": {
+    "wells": 4022,
+    "pipes": 3953,
+    "fac": 765,
+    "inst": 13,
+    "rev": 1,
+    "water": 212
+   }
+  },
+  "8_1": {
+   "bytes": 434459,
+   "counts": {
+    "wells": 3016,
+    "pipes": 2052,
+    "fac": 194,
+    "inst": 46,
+    "rev": 1,
+    "soil": 419,
+    "water": 701
+   }
+  },
+  "8_2": {
+   "bytes": 154794,
+   "counts": {
+    "wells": 206,
+    "pipes": 25,
+    "fac": 2,
+    "inst": 3,
+    "soil": 260,
+    "water": 999
+   }
+  },
+  "8_3": {
+   "bytes": 8092,
+   "counts": {
+    "wells": 84,
+    "pipes": 12,
+    "fac": 3,
+    "water": 39
+   }
+  },
+  "8_4": {
+   "bytes": 32348,
+   "counts": {
+    "wells": 969,
+    "pipes": 5,
+    "fac": 4,
+    "water": 84
+   }
+  },
+  "8_5": {
+   "bytes": 611,
+   "counts": {
+    "wells": 1,
+    "fac": 1,
+    "water": 1
+   }
+  },
+  "9_0": {
+   "bytes": 314565,
+   "counts": {
+    "wells": 2576,
+    "pipes": 2867,
+    "fac": 757,
+    "inst": 4,
+    "water": 425
+   }
+  },
+  "9_1": {
+   "bytes": 96846,
+   "counts": {
+    "wells": 1073,
+    "pipes": 478,
+    "fac": 103,
+    "inst": 2,
+    "water": 433
+   }
+  },
+  "9_2": {
+   "bytes": 7254,
+   "counts": {
+    "wells": 93,
+    "water": 58
+   }
+  },
+  "9_3": {
+   "bytes": 1277,
+   "counts": {
+    "wells": 4,
+    "fac": 2,
+    "water": 5
+   }
+  },
+  "9_4": {
+   "bytes": 1024,
+   "counts": {
+    "water": 20
+   }
+  },
+  "10_0": {
+   "bytes": 1325,
+   "counts": {
+    "wells": 8,
+    "water": 3
+   }
+  },
+  "10_1": {
+   "bytes": 5251,
+   "counts": {
+    "wells": 49,
+    "pipes": 7,
+    "fac": 2,
+    "water": 31
+   }
+  },
+  "10_2": {
+   "bytes": 1458,
+   "counts": {
+    "wells": 6,
+    "water": 23
+   }
+  },
+  "10_3": {
+   "bytes": 474,
+   "counts": {
+    "water": 4
+   }
+  },
+  "10_4": {
+   "bytes": 255,
+   "counts": {
+    "water": 1
+   }
+  },
+  "10_5": {
+   "bytes": 217,
+   "counts": {
+    "fac": 1
+   }
+  }
+ }
+}
