@@ -775,7 +775,7 @@
   "gaps": [
    "73 townships in the far northeast, township 117 to 126 range 16 to 23 west of the 4th meridian, return no interpolated series at all. That corner is largely Wood Buffalo National Park.",
    "83 townships publish monthly values but no yearly extremes, so their hardiness figure falls back to the coldest month average and is labelled approximate.",
-   "26 of the 562 stations have no 1991 to 2020 normals and were dropped. They are the mountain park stations, one out of province station, and stations commissioned after 2023. There are no station normals inside the mountain parks.",
+   "26 of the 562 stations have no 1991 to 2020 normals and were dropped: one out of province station, stations commissioned after 2023, and a few high mountain sites. The mountain parks are still covered by the stations that remain.",
    "Prevailing wind direction is published daily only, never as a normal, so it is not carried here."
   ]
  },
