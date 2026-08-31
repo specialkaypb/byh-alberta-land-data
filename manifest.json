@@ -1,6 +1,6 @@
 {
  "version": "2026-08-28",
- "source": "Alberta Energy Regulator public spatial data (ST37, ST102, Enhanced Pipeline, Abandoned Well Map, Revised Abandoned Well Locations); AGRASID 4.1 soil landscapes (Alberta Agriculture and Irrigation with Agriculture and Agri-Food Canada); Government of Alberta, Alberta Water Well Information Database",
+ "source": "Alberta Energy Regulator public spatial data (ST37, ST102, Enhanced Pipeline, Abandoned Well Map, Revised Abandoned Well Locations); AGRASID 4.1 soil landscapes (Alberta Agriculture and Irrigation with Agriculture and Agri-Food Canada); Government of Alberta, Alberta Water Well Information Database; Alberta Climate Information Service (ACIS), Alberta Agriculture and Irrigation",
  "grid": {
   "lat0": 48.9,
   "lon0": -120.4,
@@ -128,6 +128,28 @@
    "driller",
    "aquifer",
    "log"
+  ],
+  "climate": [
+   "twp",
+   "lat",
+   "lon",
+   "ata",
+   "atasd",
+   "atvn",
+   "atvx",
+   "ath",
+   "athrec",
+   "atl",
+   "atlrec",
+   "prcip",
+   "prcipsd",
+   "swemx",
+   "wsa",
+   "irt",
+   "irmt",
+   "n",
+   "minmean",
+   "maxmean"
   ]
  },
  "tiles": {
@@ -739,6 +761,260 @@
    "counts": {
     "fac": 1
    }
+  },
+  "9_5": {
+   "bytes": 35,
+   "counts": {}
+  }
+ },
+ "climate": {
+  "township_window": "1996 to 2025",
+  "station_window": "1991 to 2020",
+  "townships": 6827,
+  "stations": 536,
+  "gaps": [
+   "73 townships in the far northeast, township 117 to 126 range 16 to 23 west of the 4th meridian, return no interpolated series at all. That corner is largely Wood Buffalo National Park.",
+   "83 townships publish monthly values but no yearly extremes, so their hardiness figure falls back to the coldest month average and is labelled approximate.",
+   "26 of the 562 stations have no 1991 to 2020 normals and were dropped. They are the mountain park stations, one out of province station, and stations commissioned after 2023. There are no station normals inside the mountain parks.",
+   "Prevailing wind direction is published daily only, never as a normal, so it is not carried here."
+  ]
+ },
+ "climate_tiles": {
+  "0_2": {
+   "bytes": 2284,
+   "townships": 7
+  },
+  "0_3": {
+   "bytes": 37242,
+   "townships": 151
+  },
+  "0_4": {
+   "bytes": 37866,
+   "townships": 165
+  },
+  "0_5": {
+   "bytes": 8850,
+   "townships": 33
+  },
+  "1_2": {
+   "bytes": 14846,
+   "townships": 56
+  },
+  "1_3": {
+   "bytes": 47839,
+   "townships": 199
+  },
+  "1_4": {
+   "bytes": 40465,
+   "townships": 185
+  },
+  "1_5": {
+   "bytes": 9023,
+   "townships": 39
+  },
+  "2_1": {
+   "bytes": 2006,
+   "townships": 7
+  },
+  "2_2": {
+   "bytes": 30124,
+   "townships": 124
+  },
+  "2_3": {
+   "bytes": 44611,
+   "townships": 192
+  },
+  "2_4": {
+   "bytes": 39404,
+   "townships": 182
+  },
+  "2_5": {
+   "bytes": 8752,
+   "townships": 39
+  },
+  "3_1": {
+   "bytes": 15649,
+   "townships": 66
+  },
+  "3_2": {
+   "bytes": 37551,
+   "townships": 164
+  },
+  "3_3": {
+   "bytes": 39063,
+   "townships": 173
+  },
+  "3_4": {
+   "bytes": 34281,
+   "townships": 163
+  },
+  "3_5": {
+   "bytes": 8395,
+   "townships": 36
+  },
+  "4_0": {
+   "bytes": 26469,
+   "townships": 123
+  },
+  "4_1": {
+   "bytes": 40112,
+   "townships": 184
+  },
+  "4_2": {
+   "bytes": 39250,
+   "townships": 169
+  },
+  "4_3": {
+   "bytes": 42351,
+   "townships": 187
+  },
+  "4_4": {
+   "bytes": 35923,
+   "townships": 169
+  },
+  "4_5": {
+   "bytes": 9028,
+   "townships": 39
+  },
+  "5_0": {
+   "bytes": 30081,
+   "townships": 132
+  },
+  "5_1": {
+   "bytes": 37005,
+   "townships": 164
+  },
+  "5_2": {
+   "bytes": 36876,
+   "townships": 156
+  },
+  "5_3": {
+   "bytes": 36102,
+   "townships": 164
+  },
+  "5_4": {
+   "bytes": 31628,
+   "townships": 156
+  },
+  "5_5": {
+   "bytes": 7414,
+   "townships": 36
+  },
+  "6_0": {
+   "bytes": 30153,
+   "townships": 131
+  },
+  "6_1": {
+   "bytes": 39059,
+   "townships": 181
+  },
+  "6_2": {
+   "bytes": 31060,
+   "townships": 158
+  },
+  "6_3": {
+   "bytes": 33195,
+   "townships": 180
+  },
+  "6_4": {
+   "bytes": 32770,
+   "townships": 159
+  },
+  "6_5": {
+   "bytes": 8139,
+   "townships": 36
+  },
+  "7_0": {
+   "bytes": 28818,
+   "townships": 141
+  },
+  "7_1": {
+   "bytes": 36550,
+   "townships": 161
+  },
+  "7_2": {
+   "bytes": 35690,
+   "townships": 166
+  },
+  "7_3": {
+   "bytes": 30724,
+   "townships": 162
+  },
+  "7_4": {
+   "bytes": 37190,
+   "townships": 169
+  },
+  "7_5": {
+   "bytes": 5135,
+   "townships": 26
+  },
+  "8_0": {
+   "bytes": 22542,
+   "townships": 126
+  },
+  "8_1": {
+   "bytes": 31634,
+   "townships": 146
+  },
+  "8_2": {
+   "bytes": 30819,
+   "townships": 148
+  },
+  "8_3": {
+   "bytes": 27435,
+   "townships": 148
+  },
+  "8_4": {
+   "bytes": 28197,
+   "townships": 146
+  },
+  "8_5": {
+   "bytes": 4949,
+   "townships": 24
+  },
+  "9_0": {
+   "bytes": 21378,
+   "townships": 130
+  },
+  "9_1": {
+   "bytes": 25969,
+   "townships": 153
+  },
+  "9_2": {
+   "bytes": 24785,
+   "townships": 156
+  },
+  "9_3": {
+   "bytes": 16440,
+   "townships": 101
+  },
+  "9_4": {
+   "bytes": 22617,
+   "townships": 150
+  },
+  "9_5": {
+   "bytes": 3724,
+   "townships": 22
+  },
+  "10_0": {
+   "bytes": 2113,
+   "townships": 10
+  },
+  "10_1": {
+   "bytes": 2228,
+   "townships": 11
+  },
+  "10_2": {
+   "bytes": 1687,
+   "townships": 12
+  },
+  "10_3": {
+   "bytes": 1048,
+   "townships": 4
+  },
+  "10_4": {
+   "bytes": 2021,
+   "townships": 10
   }
  }
 }
