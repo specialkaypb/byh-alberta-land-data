@@ -1,0 +1,49 @@
+{
+ "built": "16 November 2026",
+ "themes": {
+  "wells": {
+   "cells": 276,
+   "features": 541190
+  },
+  "pipelines": {
+   "cells": 264,
+   "features": 351902
+  },
+  "facilities": {
+   "cells": 176,
+   "features": 125305
+  },
+  "traces": {
+   "cells": 162,
+   "features": 121446
+  },
+  "setback-pipeline-30m": {
+   "cells": 387,
+   "features": 351569
+  },
+  "setback-well-100m": {
+   "cells": 273,
+   "features": 486640
+  },
+  "setback-abandoned-5m": {
+   "cells": 186,
+   "features": 247482
+  },
+  "sour-wells": {
+   "cells": 160,
+   "features": 67119
+  },
+  "pipeline-installations": {
+   "cells": 139,
+   "features": 4448
+  },
+  "revised-abandoned-wells": {
+   "cells": 21,
+   "features": 147
+  },
+  "major-pipelines": {
+   "cells": 72,
+   "features": 156
+  }
+ }
+}
